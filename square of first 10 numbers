@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+#include<iostream.h>
+
+void main()
+{
+    int square, i=1;
+    
+   cout<<"square of first 10 number";
+   
+   while(i<=10)
+   {
+       square=i*i;
+       cout<<"\n"<<square;
+       i++;
+       }
+       getch();
+       }
