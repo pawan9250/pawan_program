@@ -1,0 +1,48 @@
+#include<iostream.h>
+#include<conio.h>
+#include<stdio.h>
+
+void main()
+{
+  int a, b, c, ch;
+  
+  cout<<"enter the value of b:";
+  cin>>a;
+  
+  cout<<"enter the value of b:";
+  cin>>b;
+  
+  cout<<"menu\n";
+  
+  cout<<"1-> addition";
+  cout<<"1-> subtration";
+  cout<<"1-> multiply";
+  cout<<"1-> division";
+  
+  cout<<"enter your choice(1-4)";
+  cin<<ch;
+  
+  switch(ch)
+  {
+    case 1: c=a+b;
+    cout<<"\n sum="<<c;
+    break;
+    
+    case 2:c=a-b;
+    cout<<"\n sub="<<c;
+    break;
+    
+    case 3:c=a/b;
+    cout<<"division="c;
+    break;
+    
+    case 4:
+    cout<<"mul="<<c;
+    break;
+    
+    default: 
+    cout<<"you have enter wrong choice";
+    
+    }
+    getch();
+    }
