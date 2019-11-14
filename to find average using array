@@ -12,7 +12,7 @@ int main()
    
    while(n>100||n<0)
    {
-      cout<<"number shoulds in rangeb of 1 to 100";
+      cout<<"number shoulds in range of 1 to 100";
       cout<<"enter the number again";
       cin>>n;
    }
@@ -23,7 +23,7 @@ int main()
       sum += num[i];
     }
     average = sum/n;
-    cout<<"average="<average;
+    cout<<"average="<<average;
     
     return 0;
     }
